@@ -17,12 +17,18 @@
         </p>
         <form action="" id="survey-form">
           <div class="form-control">
-            <label for="name" id="name-label">Name</label>
-            <input type="text" id="name" placeholder="Please enter your name" />
+            <label for="name" id="name-label" required>Name</label>
+            <input
+              type="text"
+              id="name"
+              required
+              placeholder="Please enter your name"
+            />
           </div>
           <div class="form-control">
             <label for="email" id="email-label">Email</label>
             <input
+              required
               type="email"
               id="email"
               placeholder="Please enter your Email address"
@@ -53,31 +59,40 @@
           <div class="check-box-area">
             <div class="form-control">
               <div class="radio-form">
-                <input type="radio" name="sex" id="" />
+                <input type="radio" name="sex" id="" value="man" />
                 <label for="radio" id="radio-label">Man</label>
               </div>
               <div class="radio-form">
-                <input type="radio" name="sex" id="" />
-                <label for="radio" id="radio-label">Women</label>
+                <input type="radio" name="sex" id="" value="=" woman />
+                <label for="radio" id="radio-label">Woman</label>
               </div>
             </div>
             <div class="form-controls">
               <div class="check-form">
-                <input type="checkbox" name="" id="" value="" />
+                <input type="checkbox" name="" id="" value="working" />
                 <label for="check" id="check-label">Working</label>
               </div>
               <div class="check-form">
-                <input type="checkbox" name="" id="" />
+                <input type="checkbox" name="" id="" value="not working" />
                 <label for="check" id="check-label">Not working</label>
               </div>
               <div class="check-form">
-                <input type="checkbox" name="" id="" />
+                <input type="checkbox" name="" id="" value="looking for job " />
                 <label for="check" id="check-label">Looking for Job</label>
               </div>
             </div>
           </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Add comment"
+          ></textarea>
+          <button type="submit" id="submit">Submit</button>
         </form>
       </div>
     </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
