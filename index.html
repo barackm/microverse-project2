@@ -9,61 +9,75 @@
   </head>
   <body>
     <main id="page-maincontainer">
-      <h1 id="title">Sarvey Form</h1>
-      <p id="description"></p>
-      <form action="" id="survey-form">
-        <div class="form-control">
-          <label for="name" id="name-label">Name</label>
-          <input type="text" id="name" placeholder="Please enter your name" />
-        </div>
-        <div class="form-control">
-          <label for="email" id="email-label">Email</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Please enter your Email address"
-          />
-        </div>
-        <div class="form-control">
-          <label for="number" id="number-label">Number</label>
-          <input type="number" name="" id="number" min="5" max="10" />
-        </div>
-        <div class="form-control">
-          <select name="" id="dropdown">
-            <option value="HTML">HTML</option>
-            <option value="CSS">CSS</option>
-            <option value="Databases">Databases</option>
-            <option value="Rubi">Rubi</option>
-            <option value="Rubi on Rails">Rubi on Rails</option>
-            <option value="Javascript">Javascript</option>
-            <option value="React js and Redux">React js and Redux</option>
-          </select>
-        </div>
-        <div class="form-control">
-          <div class="radio-form">
-            <input type="radio" name="sex" id="" />
-            <label for="radio" id="radio-label">Man</label>
+      <div class="overlay"></div>
+      <div class="form-wrapper">
+        <h1 id="title">Survey Form</h1>
+        <p id="description">
+          <i>Thank you for taking the time to help us improve the platform</i>
+        </p>
+        <form action="" id="survey-form">
+          <div class="form-control">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" placeholder="Please enter your name" />
           </div>
-          <div class="radio-form">
-            <input type="radio" name="sex" id="" />
-            <label for="radio" id="radio-label">Women</label>
+          <div class="form-control">
+            <label for="email" id="email-label">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="Please enter your Email address"
+            />
           </div>
-        </div>
-        <div class="form-controls">
-          <div class="check-form">
-            <input type="checkbox" name="" id="" value="" />
-            <label for="check" id="check-label">Working</label>
+          <div class="form-control">
+            <label for="number" id="number-label">Number</label>
+            <input
+              type="number"
+              name=""
+              id="number"
+              min="5"
+              max="10"
+              placeholder="Please enter the number "
+            />
           </div>
-          <div class="check-form">
-            <input type="checkbox" name="" id="" />
-            <label for="check" id="check-label">Not working</label>
+          <div class="form-control">
+            <select name="" id="dropdown">
+              <option value="HTML">HTML</option>
+              <option value="CSS">CSS</option>
+              <option value="Databases">Databases</option>
+              <option value="Rubi">Rubi</option>
+              <option value="Rubi on Rails">Rubi on Rails</option>
+              <option value="Javascript">Javascript</option>
+              <option value="React js and Redux">React js and Redux</option>
+            </select>
           </div>
-          <div class="check-form">
-            <input type="checkbox" name="" id="" />
-            <label for="check" id="check-label">Looking for Job</label>
+          <div class="check-box-area">
+            <div class="form-control">
+              <div class="radio-form">
+                <input type="radio" name="sex" id="" />
+                <label for="radio" id="radio-label">Man</label>
+              </div>
+              <div class="radio-form">
+                <input type="radio" name="sex" id="" />
+                <label for="radio" id="radio-label">Women</label>
+              </div>
+            </div>
+            <div class="form-controls">
+              <div class="check-form">
+                <input type="checkbox" name="" id="" value="" />
+                <label for="check" id="check-label">Working</label>
+              </div>
+              <div class="check-form">
+                <input type="checkbox" name="" id="" />
+                <label for="check" id="check-label">Not working</label>
+              </div>
+              <div class="check-form">
+                <input type="checkbox" name="" id="" />
+                <label for="check" id="check-label">Looking for Job</label>
+              </div>
+            </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
     </main>
   </body>
 </html>
