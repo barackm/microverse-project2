@@ -1,0 +1,14 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#page-maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
